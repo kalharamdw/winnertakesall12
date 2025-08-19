@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Winner Takes All - Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <h1>🎮 Winner Takes All</h1>
+</header>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Game Reviews</h2>
+    <div class="card">
+        <img src="images/game3.jpg" alt="Game">
+        <h3>Squad</h3>
+        <p>Squad is a realism-driven, tactical first-person shooter crafted by Offworld Industries, released on September 23, 2020 after years in Early Access</p>
+        <p id="rating1">☆☆☆☆☆</p>
+        <button onclick="rateGame('rating1', 5)">Rate 5 Stars</button>
+    </div>
+    <div class="card">
+        <img src="images/game5.jpg" alt="Game">
+        <h3>PUBG</h3>
+        <p>PlayerUnknown’s Battlegrounds (PUBG) is the battle royale phenomenon that helped shape the genre into a global sensation. Developed by PUBG Studios and released in 2017, the game drops up to 100 players onto massive, open maps where survival is the only goal.</p>
+        <p id="rating1">☆☆☆☆☆</p>
+        <button onclick="rateGame('rating1', 5)">Rate 5 Stars</button>
+    </div>
+    <div class="card">
+        <img src="images/game6.jpg" alt="Game">
+        <h3>COD Warzone</h3>
+        <p>Call of Duty: Warzone is Activision’s blockbuster free-to-play battle royale that blends the fast-paced, cinematic action of Call of Duty with massive, tactical multiplayer battles.</p>
+        <p id="rating1">☆☆☆☆☆</p>
+        <button onclick="rateGame('rating1', 5)">Rate 5 Stars</button>
+    </div>
+
+    <style>
+        .my-button {
+          background-color: #4CAF50; /* Green */
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .my-button:hover {
+          background-color: #45a049;
+        }
+      </style>
+      
+      <button class="my-button" onclick="alert('Button Clicked!')">See More</button>
+
+      <a href="news.html" class="next-button">Next Page →</a>
+
+<style>
+  .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .next-button:hover {
+    background-color: #0056b3; 
+  }
+</style>
+</div>
+
+<footer>
+    <p>© Winner Takes All. All rights reserved.</p>
+</footer>
+</body>
+</html>
